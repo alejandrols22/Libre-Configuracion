@@ -193,3 +193,5 @@ DELIMITER ;
 SET @precio_base = 1000; -- Establece el precio base
 CALL CalculaPrecioDescuentoIvaTotal2(@precio_base, @descuento,
 @precio_descuento, @iva, @total); -- Llama al procedimiento y obtén todos los resultados
+
+
